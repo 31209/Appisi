@@ -8,3 +8,13 @@ async function General() {
     const infoPokes = await conexionLista();
     mostrarLista(infoPokes)
 }
+
+-----------------------------------------------
+aleatorios.js
+
+
+function mostrarAleatorios(){
+    const app = document.getElementById("app");
+    app.innerHTML = "aleatorio";
+}
+
